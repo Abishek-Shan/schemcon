@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            schemcon-2023
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        </head>
+        <div class="intro"><h2>SCHEMCON 2023</h2></div>
+        <body class="home">
+        <nav class="navbar navbar-style navbar-fixed-top ">
+            <div class="container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuid">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href=""><img class="logo" src=""> </a>
+                </div>
+                <div class="collapse navbar-collapse" id="menuid">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="index.html">Home</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="callforpaper.html">Call for Paper</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+               </ul>
+               </div>
+    </div>
+    </nav>
+    <div class="content">
+        <div class="card" >
+            <h2 onclick="cardfun()">IIChE</h2>
+            <div class="cardb" onclick="normal()" >
+                <h2 id="heading">About schemcon-2023</h2>
+                <img src="">
+                    <p id="demo">SCHEMCON, Students’ Chemical Engineering Congress, is an annual event organized by the Students’ Chapter of Indian Institute of Chemical Engineers (IIChE) under one of its Regional Centres. It provides a platform for the Chemical Engineering Students to interact, learn and gain exposure to the expanding arena of Chemical Engineering. SCHEMCON-2023 is the 19th Annual Session of this mega event being organized jointly by the Department of Chemical Engineering, Kongu Engineering College, Erode and the Coimbatore Regional Centre, Indian Institute of Chemical Engineers. The theme of the SCHEMCON 2023 is Green and Sustainable Development in Chemical Engineering. Being organized in one of premier institutes in Chemical Engineering, SCHEMCON will be unique in its scope and ideas, considering the participation of stalwarts and leaders from industry, research laboratories, academia and the brightest students from across a plethora of disciplines.
+                        Our Major Domains are as follows:
+                        Advanced Separation Technologies, Biochemical Engineering, Catalysis & Reaction Engineering, Process Intensification, Nuclear & Alternate Energy, Green Chemistry, Nanotechnology, Food & Nutrition, Polymers & Composites, Petroleum Refining & Petrochemicals, Process Engineering Control & Automation, Waste Water Treatment, Reuse & Recycle, Chemical Process Technology & Safety, Metallurgy & Material Technology, Process Modelling, Simulation & Optimization and Others - include advances in science, engineering and technology
+                        </p>
+                </div>
+            </div>  
+        <div class="card1" onclick="kecfun()">
+            <h2 >KEC</h2>
+        </div>
+        <div class="card2" onclick="regcbe()">
+            <h2>IIChE Cbe</h2>
+        </div>
+        <div class="card3" onclick="dep()">
+            <h2>Department</h2>
+        </div>
+    </div>
+        <script>
+            var w = window.innerWidth;
+            function normal()
+            {
+                document.getElementsByClassName
+                document.getElementById("heading").innerHTML="About schemcon-2023";
+                document.getElementById("demo").innerHTML="SCHEMCON, Students’ Chemical Engineering Congress, is an annual event organized by the Students’ Chapter of Indian Institute of Chemical Engineers (IIChE) under one of its Regional Centres. It provides a platform for the Chemical Engineering Students to interact, learn and gain exposure to the expanding arena of Chemical Engineering. SCHEMCON-2023 is the 19th Annual Session of this mega event being organized jointly by the Department of Chemical Engineering, Kongu Engineering College, Erode and the Coimbatore Regional Centre, Indian Institute of Chemical Engineers. The theme of the SCHEMCON 2023 is Green and Sustainable Development in Chemical Engineering. Being organized in one of premier institutes in Chemical Engineering, SCHEMCON will be unique in its scope and ideas, considering the participation of stalwarts and leaders from industry, research laboratories, academia and the brightest students from across a plethora of disciplines.Our Major Domains are as follows:Advanced Separation Technologies, Biochemical Engineering, Catalysis & Reaction Engineering, Process Intensification, Nuclear & Alternate Energy, Green Chemistry, Nanotechnology, Food & Nutrition, Polymers & Composites, Petroleum Refining & Petrochemicals, Process Engineering Control & Automation, Waste Water Treatment, Reuse & Recycle, Chemical Process Technology & Safety, Metallurgy & Material Technology, Process Modelling, Simulation & Optimization and Others - include advances in science, engineering and technology.";
+            }
+            function cardfun()
+            {
+                document.getElementById("heading").innerHTML="IIChE";
+                document.getElementById("demo").innerHTML="Indian Institute of Chemical Engineers (IIChE) was born on the eve of the Indian Independence during the days fomenting with nationalistic aspirations. Dr. Hira Lal Roy, the great visionary and pioneer of Chemical Engineering education in India, along with a few other stalwarts felt the need for such a forum within the country to spread Chemical Engineering education and to foster the interest of the Chemical Engineering profession in general.A modest beginning was made on 18 May 1947 at a room in Jadavpur University, Kolkata, with 30 members, little fund and nominal infrastructure. IIChE has come a long way since. Today, with around 30,000 members on its roll, the Institute has emerged as the apex professional body of Chemical Engineering professionals in India and has developed a distinct profile of its own. As a matter of fact, IIChE is always moulding itself and playing a proactive role to keep up with the dynamic needs of the economy and the society.";            }
+            function kecfun()
+            {
+                document.getElementById("heading").innerHTML="Kongu Engineering College";
+                document.getElementById("demo").innerHTML="Kongu Engineering College (KEC), established in the year 1984, approved by AICTE, New Delhi and affiliated to Anna University, Chennai has completed 38 years of dedicated and excellent service in the field of technical education. It offers 14 UG, 19 PG and 16 Research programmes in Engineering, Applied Sciences and Management branches. The Institution has got NBA accreditation for UG programme, Best Engineering College award and the Best Principal Award twice. The Institution is one among the best self-financing engineering colleges imparting high quality technical education in Tamil Nadu. In the survey conducted by MHRD in the name of NIRF (National Institution Ranking Framework), the institution bagged 118th rank among all Engineering Colleges including IITs & NITs. TBI @KEC supported by Department of Science and Technology (DST) Govt. of India has won National Award for the year 2012 presented by then President of India, Shri. Pranab Mukherjee.";
+            }
+            function regcbe()
+            {
+                document.getElementById("heading").innerHTML="IIChE COIMBATORE REGIONAL CENTRE";
+                document.getElementById("demo").innerHTML="Coimbatore Institute of Technology, Chemical Engineering department was established in the year 1963 and in 1971 the Postgraduate programme M.Tech (Chemical Engineering) was started consecutively. The department is a recognized Ph.D. research centre since 1972, has successfully completed research projects funded by various funding agencies like AICTE, UGC, CSIR, CECRI, ONGC and TNSCST.";
+            }
+            function dep()
+            {
+                document.getElementById("heading").innerHTML="Chemical Engineering at KEC";
+                document.getElementById("demo").innerHTML="The Department of Chemical Engineering, started in the academic year 1994 -1995, offers B.Tech., and  M.Tech., Degree programmes in Chemical Engineering. This department is a recognized research centre by the Anna University, Chennai with well-equipped laboratories and advanced simulation software’s like ASPEN, HYSYS, HTRI and ProSIM’s that cater to the interests of aspiring students.  The department focuses on imparting students with excellent technical knowledge to meet the needs of industries and research as well. The IIChE-KEC Student Chapter started in the year 2001 aims to promote research interests in Chemical Engineering Science among the students and professionals. With more than 200 student members enrolled, the Student Chapter have organized many programs including seminars, guest lectures, symposia and workshops. The KEC Student Chapter has won the Ambuja’s Best Student Chapter Award (II Prize) for the year 2017 and also consecutively the Pidilite Industries Best Student Chapter Award for the years 2018 and 2022.";
+            }
+
+        </script>
+
+    </body>
